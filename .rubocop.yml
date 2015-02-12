@@ -1,3 +1,6 @@
 AllCops:
   Exclude:
     - 'Guardfile'
+
+Stringliterals:
+  Enabled: false
