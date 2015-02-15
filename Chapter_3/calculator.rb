@@ -1,33 +1,33 @@
-def add(a, b)
-  puts "#{a} + #{b} = #{a + b}"
+def add(first_number, second_number)
+  puts "#{first_number} + #{second_number} = #{first_number + second_number}"
 end
 
-def subtract(a, b)
-  puts "#{a} - #{b} = #{a - b}"
+def subtract(first_number, second_number)
+  puts "#{first_number} - #{second_number} = #{first_number - second_number}"
 end
 
-def multiply(a, b)
-  puts "#{a} * #{b} = #{a * b}"
+def multiply(first_number, second_number)
+  puts "#{first_number} * #{second_number} = #{first_number * second_number}"
 end
 
-def divide(a, b)
-  puts "#{a} / #{b} = #{a / b}"
+def divide(first_number, second_number)
+  puts "#{first_number} / #{second_number} = #{first_number / second_number}"
 end
 
-def square(a)
-  puts "Square of #{a} = #{a * a}"
+def square(first_number)
+  puts "#{first_number} squared = #{first_number * first_number}"
 end
 
-def square_root(a)
-  puts "Square root of #{a} is #{a**0.5}"
+def square_root(first_number)
+  puts "Square root of #{first_number} is #{first_number**0.5}"
 end
 
-def area_of_circle(a)
-  puts "Area of a circle with diameter of #{a} = #{3.1416 * (a / 2)**2}"
+def area_of_circle(first_number)
+  puts "Area of a circle with diameter of #{first_number} = #{3.1416 * (first_number / 2)**2}"
 end
 
-def circumference(a)
-  puts "Circumference of a circle with diameter of #{a} = #{3.1416 * a}"
+def circumference(first_number)
+  puts "Circumference of a circle with diameter of #{first_number} = #{3.1416 * first_number}"
 end
 
 add(3, 4)
