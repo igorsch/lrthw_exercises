@@ -25,6 +25,6 @@ puts "There will be #{cars_not_driven} empty cars today."
 # prints out "carpool_capacity" variable
 puts "We can transport #{carpool_capacity} people today."
 # prints out "passengers" variable
-puts "We have #{passengers} people to carpool."
+puts "We have #{passengers} to carpool today."
 # prints out "average_passengers_per_car" variable
 puts "We need to put about #{average_passengers_per_car} in each car."
