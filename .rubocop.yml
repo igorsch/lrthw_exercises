@@ -2,5 +2,8 @@ AllCops:
   Exclude:
     - 'Guardfile'
 
-StringLiterals:
-  Enabled: false
+# StringLiterals:
+#   Enabled: false
+
+Metrics/LineLength:
+     Max: 130
