@@ -30,7 +30,7 @@ puts joke_evaluation
 # assign value to "w" variable
 w = 'This is a left side of...'
 # assign value to "e" variable
-e = 'a string with a right side'
+e = 'a string with a right side.'
 
 # prints value for "w" and "e" one after another
 puts w + e
