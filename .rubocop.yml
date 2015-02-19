@@ -7,3 +7,6 @@ AllCops:
 
 Metrics/LineLength:
      Max: 130
+     
+LiteralInInterpolation:
+  Enabled: false
