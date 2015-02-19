@@ -17,7 +17,7 @@ print 'Type the filename again: '
 # captures user input. has to use $stdin or STDIN if ARGV is started
 file_again = $stdin.gets.chomp
 
-# assigns command to open file to 'txt_again' variable 
+# assigns command to open file to 'txt_again' variable
 txt_again = open(file_again)
 
 # prints contents of txt file with .read command
