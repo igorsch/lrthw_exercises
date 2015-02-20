@@ -20,7 +20,8 @@ Changed double quoets to single
 ### Drill
 
 1. See ex6.rb  
-2. String is put inside other string in line 2, line 5, line 10 and line 11.
-3. He was not lying. Line 14 has "hilarious" value, which is a non-string value.
-4. In this case  putting + between to strings simply prints one string after another.
+2. String is put inside other string in line 5 (2x), line 10 and line 11.
+3. He was not lying. Line 14 has "hilarious" value, which is a non-string value. And also line 2 has  
+   integer as a value for "types_of_people".
+4. In this case  putting + between two strings concatenates those string together.
 5. In the string with interpolation we can only use double-quotes, with a simple string we can use both, single or double.  
