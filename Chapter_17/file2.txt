@@ -1,0 +1,4 @@
+Hello, hello, hello
+This is original file.
+And we will transfer this text
+Into new file
