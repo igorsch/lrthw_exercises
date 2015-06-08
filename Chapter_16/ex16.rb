@@ -43,7 +43,10 @@ line3 = $stdin.gets.chomp
 puts "I'm going to write these to the file."
 
 # prints 7 '*' and pauses fir 0.15 seconds in between each '*'
-7.times { print '*'; sleep(0.15) }
+7.times do
+  print '*'
+  sleep(0.15)
+end
 
 # writes line1 into the file
 target.write(line1)

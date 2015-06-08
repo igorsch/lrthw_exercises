@@ -1,6 +1,7 @@
 AllCops:
   Exclude:
     - 'Guardfile'
+    - 'Test1.rb'
 
 # StringLiterals:
 #   Enabled: false

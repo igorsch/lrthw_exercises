@@ -24,7 +24,10 @@ line3 = $stdin.gets.chomp
 
 puts "I'm going to write these to the file."
 
-7.times { print '*'; sleep(0.15) }
+7.times do
+  print '*'
+  sleep(0.15)
+end
 
 target.write("#{line1}\n#{line2}\n#{line3}\n")
 
